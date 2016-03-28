@@ -10,7 +10,7 @@ Str = Str.replace(" ", "")
 Str = Str.replace(";", "")
 Str = Str.replace(".", "")
 
-# Male str to all lowercase letters
+# Make str to all lowercase letters
 Str = Str.lower()
 
 # Check palindrome
