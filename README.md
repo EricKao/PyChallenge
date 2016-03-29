@@ -1,2 +1,2 @@
 # PyChallenge
-# A series of python program challenges.
+A series of python program challenges.
