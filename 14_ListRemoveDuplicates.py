@@ -16,4 +16,4 @@ def RemoveDuplicate2(input):
 List = [1, 1, 2, 3, 4, 4, 4, 5, 5, 6]
 
 print "Method by using set: %s" % RemoveDuplicate1(List)
-print "Method by using set: %s" % RemoveDuplicate2(List)
+print "Method by using set: {}".format(RemoveDuplicate2(List))
