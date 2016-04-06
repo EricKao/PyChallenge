@@ -1,4 +1,5 @@
-# This program randomly generate password for user
+# This program parse all heading content and print out of HTML page
+# by using requests and BeautifulSoup module
 #
 # Created by Eric
 
