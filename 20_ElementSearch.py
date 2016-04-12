@@ -8,12 +8,12 @@ Element = [1, 3, 5, 30, 42, 43, 500]
 
 def ElementBinarySearch(List, Num):
     Left = 0
-    Right = len(Element) - 1
+    Right = len(List) - 1
     while Left <= Right:
         Middle = (Left + Right) / 2
-        if Num == Element[Middle]:
+        if Num == List[Middle]:
             return True
-        elif Num > Element[Middle]:
+        elif Num > List[Middle]:
             Left = Middle + 1
         else:
             Right = Middle - 1
